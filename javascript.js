@@ -1,11 +1,11 @@
-var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
-var d=new Date();
-var month_num=d.getMonth();
-var day=d.getDate();
-var year=d.getFullYear();
-var hour=d.getHours();
-var minute=d.getMinutes();
-var second=d.getSeconds();
+// var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+// var d=new Date();
+// var month_num=d.getMonth();
+// var day=d.getDate();
+// var year=d.getFullYear();
+// var hour=d.getHours();
+// var minute=d.getMinutes();
+// var second=d.getSeconds();
 
 var title=document.getElementById("uber_title");
 title.innerHTML="Ishancorp";
