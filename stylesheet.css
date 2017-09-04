@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255,255,255);
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    color: rgb(0,0,0);
+    font-family: "Verdana";
+    font-size: 14px;
+}
+p#title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+p#uber_title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+p#header{
+    font-weight: bold;
+}
+p#text {
+    font-size: 12px;
+    text-align: left;
+}
+p#date {
+    font-size: 11px;
+    text-align: left;
+}
+p#time {
+    font-size: 11px;
+    text-align: left;
+}
+div#box_of_everything {
+    background-color: lightgrey;
+    padding: 8px;
+    margin: 4px;
+    background-color: rgb(238,238,238);
+}
+a {
+    color: rgb(0,0,255);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div#head {
+    background-color: grey;
+    padding: 0px;
+    margin: 4px;
+    background-color: rgb(217,217,217);
+    border: 2px
+    text-align: center;
+}
+ul#navig {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li#navi {
+    float: left;
+}
+a.nav {
+    display: block;
+    width: 150px;
+    background-color: rgb(217,217,217);
+    color: black;
+    font-family: "Verdana";
+    text-align: center;
+    padding: 5px;
+}
+a.nav:hover {
+    background-color: rgb(167,167,167);
+    text-decoration: none;
+}
