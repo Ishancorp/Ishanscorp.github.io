@@ -37,7 +37,7 @@ div#box_of_everything {
     background-color: lightgrey;
     padding: 8px;
     margin: 4px;
-    background-color: rgb(238,238,238);
+    background-color: rgb(24,129,135);
 }
 a {
     color: rgb(0,0,255);
@@ -50,7 +50,7 @@ div#head {
     background-color: grey;
     padding: 0px;
     margin: 4px;
-    background-color: rgb(217,217,217);
+    background-color: rgb(48,153,159);
     border: 2px
     text-align: center;
 }
