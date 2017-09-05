@@ -37,7 +37,7 @@ div#box_of_everything {
     background-color: lightgrey;
     padding: 8px;
     margin: 4px;
-    background-color: rgb(238,238,238);
+    background-color: rgb(238,238,255);
 }
 a {
     color: rgb(0,0,255);
@@ -50,7 +50,7 @@ div#head {
     background-color: grey;
     padding: 0px;
     margin: 4px;
-    background-color: rgb(217,217,217);
+    background-color: rgb(217,217,240);
     border: 2px
     text-align: center;
 }
@@ -66,13 +66,13 @@ li#navi {
 a.nav {
     display: block;
     width: 150px;
-    background-color: rgb(217,217,217);
+    background-color: rgb(217,217,240);
     color: black;
     font-family: "Verdana";
     text-align: center;
     padding: 5px;
 }
 a.nav:hover {
-    background-color: rgb(167,167,167);
+    background-color: rgb(167,167,200);
     text-decoration: none;
 }
