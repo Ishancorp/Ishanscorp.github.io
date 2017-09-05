@@ -14,9 +14,9 @@ var home=document.getElementById("nav1");
 home.innerHTML="Home";
 home.href="index.html"
 
-var math=document.getElementById("nav2");
-math.innerHTML="Math";
-math.href="math.html"
+var naval=document.getElementById("nav2");
+math.innerHTML="Naval Warfare";
+math.href="naval_warfare.html"
 
 var about=document.getElementById("nav3");
 about.innerHTML="About";
