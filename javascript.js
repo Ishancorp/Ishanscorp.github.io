@@ -15,8 +15,8 @@ home.innerHTML="Home";
 home.href="index.html"
 
 var naval=document.getElementById("nav2");
-math.innerHTML="Naval Warfare";
-math.href="naval_warfare.html"
+naval.innerHTML="Naval Warfare";
+naval.href="naval_warfare.html"
 
 var about=document.getElementById("nav3");
 about.innerHTML="About";
