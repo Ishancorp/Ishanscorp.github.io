@@ -13,9 +13,9 @@ var about=document.getElementById("nav3");
 about.innerHTML="About";
 about.href="about.html"
 
-document.getElementById("navig").innerHTML='
-            <li id="navi"><a id="nav1" class="nav"></a></li>
-            <li id="navi"><a id="nav2" class="nav"></a></li>
-            <li id="navi"><a id="nav3" class="nav"></a></li>
+document.getElementById("navig").innerHTML="
+            <li id='navi'><a id='nav1' class='nav'></a></li>
+            <li id='navi'><a id='nav2' class='nav'></a></li>
+            <li id='navi'><a id='nav3' class='nav'></a></li>
        
-';
+";
