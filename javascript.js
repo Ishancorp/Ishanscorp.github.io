@@ -9,11 +9,7 @@
 
 
 
-document.getElementByID("head").innerHTML='<ul id="navig">
-            <li id="navi"><a href="index.html" id="nav1" class="nav">Home</a></li>
-            <li id="navi"><a href="math.html" id="nav2" class="nav">World War Sea</a></li>
-            <li id="navi"><a href="about.html" id="nav3" class="nav">About</a></li>
-        </ul>';
+
 var title=document.getElementById("uber_title");
 title.innerHTML="Ishan Sharma";
 
