@@ -8,7 +8,7 @@
 // var second=d.getSeconds();
 
 var title=document.getElementById("uber_title");
-title.innerHTML="Ishancorp";
+title.innerHTML="Ishan Sharma";
 
 var home=document.getElementById("nav1");
 home.innerHTML="Home";
