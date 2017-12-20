@@ -7,6 +7,13 @@
 // var minute=d.getMinutes();
 // var second=d.getSeconds();
 
+
+
+document.getElementByID("head").innerHTML='<ul id="navig">
+            <li id="navi"><a id="nav1" class="nav"></a></li>
+            <li id="navi"><a href="math.html" id="nav2" class="nav"></a></li>
+            <li id="navi"><a href="about.html" id="nav3" class="nav"></a></li>
+        </ul>';
 var title=document.getElementById("uber_title");
 title.innerHTML="Ishan Sharma";
 
@@ -21,9 +28,3 @@ naval.href="naval_warfare.html"
 var about=document.getElementById("nav3");
 about.innerHTML="About";
 about.href="about.html"
-
-document.getElementByID("head"='<ul id="navig">
-            <li id="navi"><a id="nav1" class="nav"></a></li>
-            <li id="navi"><a href="math.html" id="nav2" class="nav"></a></li>
-            <li id="navi"><a href="about.html" id="nav3" class="nav"></a></li>
-        </ul>';
