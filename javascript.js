@@ -8,15 +8,6 @@
 // var second=d.getSeconds();
 
 
-document.getElementById("menu").innerHTML='
-    <li class="topline"><a href="#">some text</a></li>
-    <li><a href="#">some text </a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#"some text</a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#">some text</a></li>
-';
 
 var title=document.getElementById("uber_title");
 title.innerHTML="Ishan Sharma";
