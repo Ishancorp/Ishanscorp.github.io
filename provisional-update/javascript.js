@@ -13,12 +13,9 @@ var about=document.getElementById("nav3");
 about.innerHTML="About";
 about.href="about.html"
 
-document.getElementById("menu").innerHTML='
-    <li class="topline"><a href="#">some text</a></li>
-    <li><a href="#">some text </a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#"some text</a></li>
-    <li><a href="#">some text</a></li>
-    <li><a href="#">some text</a></li>
+document.getElementById("navig").innerHTML='
+            <li id="navi"><a id="nav1" class="nav"></a></li>
+            <li id="navi"><a id="nav2" class="nav"></a></li>
+            <li id="navi"><a id="nav3" class="nav"></a></li>
+       
 ';
