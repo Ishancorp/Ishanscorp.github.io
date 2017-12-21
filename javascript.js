@@ -23,6 +23,3 @@ naval.href="naval_warfare.html"
 var about=document.getElementById("nav3");
 about.innerHTML="About";
 about.href="about.html"
-var slideIndex = 1;
-showSlides(slideIndex);
-
