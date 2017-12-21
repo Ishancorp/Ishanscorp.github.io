@@ -14,8 +14,6 @@ about.innerHTML="About";
 about.href="about.html"
 
 document.getElementById("navig").innerHTML="
-            <li id='navi'><a id='nav1' class='nav'></a></li>
-            <li id='navi'><a id='nav2' class='nav'></a></li>
-            <li id='navi'><a id='nav3' class='nav'></a></li>
+            <a href 'google.com'> Mah man</a>
        
 ";
