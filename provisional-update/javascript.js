@@ -13,7 +13,4 @@ var about=document.getElementById("nav3");
 about.innerHTML="About";
 about.href="about.html"
 
-document.getElementById("navig").innerHTML="
-            <a href 'google.com'> Mah man</a>
-       
-";
+document.getElementById("navig").innerHTML="Surprise motherfucker";
