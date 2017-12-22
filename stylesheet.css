@@ -11,3 +11,15 @@ body {
   background-color: #343a40;
   color: #ffffff;
 }
+
+.btn-secondary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
