@@ -4043,11 +4043,11 @@ tbody.collapse.show {
 
 
 .navbar-blue .navbar-brand {
-  color: #4682B4;
+  color: #fff;
 }
 
 .navbar-blue .navbar-brand:focus, .navbar-blue .navbar-brand:hover {
-  color: #4682B4;
+  color: #fff;
 }
 
 .navbar-blue .navbar-nav .nav-link {
@@ -4066,7 +4066,7 @@ tbody.collapse.show {
 .navbar-blue .navbar-nav .active > .nav-link,
 .navbar-blue .navbar-nav .nav-link.show,
 .navbar-blue .navbar-nav .nav-link.active {
-  color: #4682B4;
+  color: #fff;
 }
 
 .navbar-blue .navbar-toggler {
@@ -4083,11 +4083,11 @@ tbody.collapse.show {
 }
 
 .navbar-blue .navbar-text a {
-  color: #4682B4;
+  color: #fff;
 }
 
 .navbar-blue .navbar-text a:focus, .navbar-blue .navbar-text a:hover {
-  color: #4682B4;
+  color: #fff;
 }
 
 .card {
