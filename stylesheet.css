@@ -1,3 +1,8 @@
 .bg-custom {
   background-color: #343a6b !important;
 }
+
+.jumbotron {
+  background-color: #2767a9;
+  color: #ffffff;
+}
