@@ -1,0 +1,8 @@
+#india  {
+  width: 100%;
+  height: 100%;
+}
+
+.nation:hover{
+  fill:#afafaf !important;
+}
