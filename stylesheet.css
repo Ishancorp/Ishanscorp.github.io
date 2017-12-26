@@ -27,3 +27,7 @@ body {
 .card-text {
   color: #868e96;
 }
+
+navbar {
+  position: sticky;
+}
