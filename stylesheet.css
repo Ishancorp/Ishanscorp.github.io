@@ -28,7 +28,7 @@ body {
   color: #868e96;
 }
 
-navbar {
+.navbar {
   position: sticky;
   top: 0;
 }
