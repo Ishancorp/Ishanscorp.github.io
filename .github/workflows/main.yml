@@ -6,3 +6,9 @@ on: [pull_request, push]
 env:
   ## Sets environment variable
   API_KEY: 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  
+
+jobs:
+  write-to-console:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hello world!'
