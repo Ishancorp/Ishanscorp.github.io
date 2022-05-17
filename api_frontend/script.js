@@ -22,7 +22,7 @@ prompt_maker.onsubmit = async (e) => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                Authorization: `Bearer ${{ secrets.API_KEY }}`,
+                Authorization: `Bearer ${{ env.API_KEY }}`,
             },
             body: JSON.stringify(data),
         });
