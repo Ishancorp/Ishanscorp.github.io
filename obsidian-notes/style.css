@@ -189,4 +189,11 @@ nav {
   li {
     font-size: 1rem;
   }
+
+  article {
+    width: 90%;
+    margin: auto;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
 }
