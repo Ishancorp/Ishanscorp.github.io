@@ -196,4 +196,11 @@ nav {
     padding-left: 0.25em;
     padding-right: 0.25em;
   }
+
+  body {
+    font-size: 1.5em;
+  }
+  li {
+    font-size: 1.5rem;
+  }
 }
