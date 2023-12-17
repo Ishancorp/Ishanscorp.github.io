@@ -1,3 +1,4 @@
+
 :root {
   font-family: -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
@@ -134,14 +135,16 @@ article {
 
 nav li {
   list-style-type: none;
-  padding: 0
+  padding: 0;
   margin-left: 0.75rem;
+  width: 100%
 }
 
 li ul {
   margin: 0;
-  padding-left: 0.75rem;
+  padding-left: 1rem;
   border-left: 1px solid #393939;
+  margin-left: 0.3em;
 }
 
 div#navbar {
@@ -156,6 +159,7 @@ div#navbar {
   margin: 0 auto;
   left: 0;
   right: auto;
+  overflow-x: hidden;
 }
 
 div#table-of-contents {
@@ -176,6 +180,7 @@ div.transclude-link {
   text-align: right;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+
 }
 
 #navbar:popover-open {
@@ -193,10 +198,15 @@ button {
 }
 
 button:hover {
-  background-color: #80A6FF;
+  background-color: #87B6F6;
 }
 
 svg#navicon {
+  height: 2em;
+  width: 2em;
+}
+
+svg#tocicon {
   height: 2em;
   width: 2em;
 }
@@ -207,6 +217,35 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-between;
+}
+
+input[type='checkbox']:not(:checked) + label + ul {
+    display: none;
+    visibility:hidden;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  transform-origin: center;
+  margin: 0;
+  font: inherit;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0;
+  border-radius: 0.15em;
+  color: #363636;
+  bottom: 0.1em;
+  position: relative;
+}
+
+input[type="checkbox"]::before {
+  content: ">";
+}
+
+input[type="checkbox"]:checked {
+  transform: rotate(90deg);
+  bottom: auto;
+  top: 0.4em;
 }
 
 footer {
@@ -222,6 +261,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  svg#tocicon {
+    height: 2rem;
+    width: 2rem;
+  }
   svg#navicon {
     height: 2rem;
     width: 2rem;
@@ -246,11 +289,8 @@ footer {
     padding-right: 0.25em;
   }
 
-  li {
-    font-size: 1.5rem;
-  }
-
   footer {
     margin-top: 4em;
   }
 }
+
