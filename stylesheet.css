@@ -1,0 +1,42 @@
+body {
+    background-color: #808080;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+article{
+    border: 3px solid #000000;
+    background-color: #EFEFEF;
+}
+h1 {
+    font-family: "Charcoal";
+    font-size: 1em;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+p {
+    font-family: "Torrance";
+    padding: 0;
+    margin: 0
+}
+p.empha {
+    font-family: "Charcoal";
+    padding: 0 0.5%;
+    margin: 0;
+}
+div.inset-content{
+    margin: 0.2em;
+    padding: 0.1em;
+    border: 4px solid #000000;
+    background-color: #FFFFFF;
+}
+div.second-inset-content{
+    margin: 0.1em;
+    padding: 0.5em;
+    border: 1px solid #000000;
+}

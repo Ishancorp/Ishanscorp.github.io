@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Athene';
+    src: url('Athene.woff2') format('woff2'),
+        url('Athene.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liverpool';
+    src: url('Liverpool.woff2') format('woff2'),
+        url('Liverpool.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Torrance';
+    src: url('Torrance.woff2') format('woff2'),
+        url('Torrance.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Parc Place Legacy';
+    src: url('ParcPlaceLegacy.woff2') format('woff2'),
+        url('ParcPlaceLegacy.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Parc Place';
+    src: url('ParcPlace.woff2') format('woff2'),
+        url('ParcPlace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Valencia';
+    src: url('Valencia.woff2') format('woff2'),
+        url('Valencia.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Los Altos';
+    src: url('LosAltos.woff2') format('woff2'),
+        url('LosAltos.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sanfrisco';
+    src: url('Sanfrisco.woff2') format('woff2'),
+        url('Sanfrisco.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Charcoal';
+    src: url('Charcoal.woff2') format('woff2'),
+        url('Charcoal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
