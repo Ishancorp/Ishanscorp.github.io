@@ -29,9 +29,8 @@ a:hover {
   text-decoration: underline;
   color: #87B6F6;
 }
-code section {
+pre {
   background-color: #242424;
-  padding: 2em;
 }
 img {
   max-width: 100%;
