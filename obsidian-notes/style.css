@@ -151,6 +151,11 @@ article {
   padding-right: 0.5em;
 }
 
+nav {
+  background-color: #1E1E1E;
+  padding-top: 0.5em;
+}
+
 nav li {
   list-style-type: none;
   padding: 0;
