@@ -242,6 +242,12 @@ nav {
   justify-content: space-between;
 }
 
+span.anchor {
+  height: 30px;
+  margin-top: -30px;
+  position: absolute;
+}
+
 input[type='checkbox']:not(:checked) + label + ul {
     display: none;
     visibility:hidden;
