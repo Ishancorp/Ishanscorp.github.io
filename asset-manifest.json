@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1f83479c.css",
+    "main.js": "./static/js/main.887a4731.js",
+    "static/js/453.5681d49f.chunk.js": "./static/js/453.5681d49f.chunk.js",
+    "static/media/Map_of_New_Holland.png": "./static/media/Map_of_New_Holland.c2361d4c45694b8d61be.png",
+    "static/media/LosAltos.woff": "./static/media/LosAltos.e87151d09f3968d0b47b.woff",
+    "static/media/LosAltos.woff2": "./static/media/LosAltos.a329ec17e7629a3ecd93.woff2",
+    "static/media/Charcoal.woff": "./static/media/Charcoal.e34770502e1392f60f32.woff",
+    "static/media/NewYorkPlain.woff": "./static/media/NewYorkPlain.f4bd3e5c5b3f84360197.woff",
+    "static/media/Flag_of_New_Holland.png": "./static/media/Flag_of_New_Holland.6c37bb7691b8a2603126.png",
+    "static/media/NewYorkPlain.woff2": "./static/media/NewYorkPlain.f7c05dd6368a1ff0d5cd.woff2",
+    "static/media/Charcoal.woff2": "./static/media/Charcoal.62404db1e583c35199fc.woff2",
+    "static/media/Liverpool.woff": "./static/media/Liverpool.036f861b3a7ec8926f55.woff",
+    "static/media/Torrance.woff": "./static/media/Torrance.7fe08b891411d5f0dded.woff",
+    "static/media/Sanfrisco.woff": "./static/media/Sanfrisco.7ef86aed779826577887.woff",
+    "static/media/ParcPlaceLegacy.woff": "./static/media/ParcPlaceLegacy.9ea56c8b0b8e36967adb.woff",
+    "static/media/ParcPlace.woff": "./static/media/ParcPlace.778b636b4c72a869f63d.woff",
+    "static/media/Valencia.woff": "./static/media/Valencia.feac04dc08adcb915631.woff",
+    "static/media/Liverpool.woff2": "./static/media/Liverpool.9e52e5e95688c0c631ef.woff2",
+    "static/media/Athene.woff": "./static/media/Athene.6f2a4ba0533691e7ff4a.woff",
+    "static/media/Sanfrisco.woff2": "./static/media/Sanfrisco.29e417c211acdae042ef.woff2",
+    "static/media/Torrance.woff2": "./static/media/Torrance.b3a842f0bdc44a5f42d1.woff2",
+    "static/media/ParcPlaceLegacy.woff2": "./static/media/ParcPlaceLegacy.d99a92ec216aaa5fe0b3.woff2",
+    "static/media/ParcPlace.woff2": "./static/media/ParcPlace.fa96d794f23f85a73ec8.woff2",
+    "static/media/Valencia.woff2": "./static/media/Valencia.451f458d2739b0325653.woff2",
+    "static/media/Athene.woff2": "./static/media/Athene.4f29be34a40e2328f2ce.woff2",
+    "index.html": "./index.html",
+    "main.1f83479c.css.map": "./static/css/main.1f83479c.css.map",
+    "main.887a4731.js.map": "./static/js/main.887a4731.js.map",
+    "453.5681d49f.chunk.js.map": "./static/js/453.5681d49f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f83479c.css",
+    "static/js/main.887a4731.js"
+  ]
+}
