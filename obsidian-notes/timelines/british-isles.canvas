@@ -265,7 +265,15 @@
 		{"id":"f9ce407dcee7129a","x":15025,"y":220,"width":250,"height":80,"type":"text","text":"Collapse of the Bank of England; [[Recessions#Panic of 1835]] begins"},
 		{"id":"4b93915c2206289e","x":16625,"y":-220,"width":250,"height":120,"type":"text","text":"Death of Chief Magistrate [[Heads of British Isles#1828-1839 Henry Vassall-Fox, Baron Holland (Whig)]]"},
 		{"id":"b48050120dc17dec","x":16625,"y":-20,"width":250,"height":240,"type":"text","text":"[[Heads of British Isles#1837-1839 Lord John Russell (Moderate Whig - Huskissonite Tory coalition)]] administration unable to obtain a majority for making Lord Holland's son next chief magistrate; government collapses"},
-		{"id":"1f5eb7993572af54","x":17425,"y":-220,"width":250,"height":140,"type":"text","text":"[[Russia's Wars#Turkish War of Succession (1841-4)]] begins; despite a backlash against the Turks, Britain intervenes in Turkey's favor"}
+		{"id":"1f5eb7993572af54","x":17425,"y":-220,"width":250,"height":140,"type":"text","text":"[[Russia's Wars#Turkish War of Succession (1841-4)]] begins; despite a backlash against the Turks, Britain intervenes in Turkey's favor"},
+		{"id":"4d339f9abd7a9192","x":18625,"y":-220,"width":250,"height":80,"type":"text","text":"British victory in [[Russia's Wars#Turkish War of Succession (1841-4)]]"},
+		{"id":"b9e8fad65abe08ad","x":18625,"y":-60,"width":250,"height":120,"type":"text","text":"[[Heads of British Isles#1840-1844 Lord John Russell (Moderate)]] collapses over First Enthronement Bill"},
+		{"id":"1376086a25afac8f","x":17825,"y":-220,"width":250,"height":120,"type":"text","text":"Passage of Indigent Relief Code, better known as the New Poor Law, to widespread opposition"},
+		{"id":"a2fa6eb13157fc29","x":19025,"y":-220,"width":250,"height":120,"type":"text","text":"[[Heads of British Isles#1845-1846 Wilfrid Lawson (Radical)]] institutes the secret ballot to clean up chaos of elections"},
+		{"id":"e8134bf3eff07a38","x":19425,"y":-220,"width":250,"height":180,"type":"text","text":"[[Heads of British Isles#1846-1846 Henry Petty, Lord Lansdowne (Moderate)]] institutes an Irish Coercion Act, greatly escalating Repealer agitation led by [[Daniel O'Connell]]"},
+		{"id":"8a9895e47cc44e99","x":19425,"y":40,"width":250,"height":80,"type":"text","text":"[[Heads of British Isles#1846-1857 Wilfrid Lawson (Radical)]] comes to power"},
+		{"id":"f6cf86a44cf7b12d","x":19825,"y":-220,"width":250,"height":140,"type":"text","text":"[[Heads of British Isles#1846-1857 Wilfrid Lawson (Radical)]] successfully passes the Irish Legislature Act, over the veto of the House of Lords"},
+		{"id":"794f9417abf2234c","x":20225,"y":-220,"width":250,"height":80,"type":"text","text":"[[British Wars#New Granadine War of Independence (1848-52)]] begins, Britain intervenes"}
 	],
 	"edges":[
 		{"id":"ca1e0a70289d7404","fromNode":"bbf74b7a50ab9028","fromSide":"right","toNode":"5ccfe284b40b7fee","toSide":"left"},
@@ -537,6 +545,14 @@
 		{"id":"f882717573542528","fromNode":"41d30e65b8087904","fromSide":"bottom","toNode":"f9ce407dcee7129a","toSide":"top"},
 		{"id":"3fc33f8efbfe0b5d","fromNode":"d62c022c804be125","fromSide":"bottom","toNode":"4b93915c2206289e","toSide":"top"},
 		{"id":"b364f131cbbfccc8","fromNode":"4b93915c2206289e","fromSide":"bottom","toNode":"b48050120dc17dec","toSide":"top"},
-		{"id":"f646c06bc30e4813","fromNode":"75fcc56a457310aa","fromSide":"bottom","toNode":"1f5eb7993572af54","toSide":"top"}
+		{"id":"f646c06bc30e4813","fromNode":"75fcc56a457310aa","fromSide":"bottom","toNode":"1f5eb7993572af54","toSide":"top"},
+		{"id":"5dde96769ee399e5","fromNode":"50a6c56105ff3513","fromSide":"bottom","toNode":"4d339f9abd7a9192","toSide":"top"},
+		{"id":"c413ff3dd1e5e2a6","fromNode":"4d339f9abd7a9192","fromSide":"bottom","toNode":"b9e8fad65abe08ad","toSide":"top"},
+		{"id":"87f3d4f206504aa8","fromNode":"29357fb707dbb648","fromSide":"bottom","toNode":"1376086a25afac8f","toSide":"top"},
+		{"id":"79273c99c12767da","fromNode":"58d6501a3b474aad","fromSide":"bottom","toNode":"a2fa6eb13157fc29","toSide":"top"},
+		{"id":"5018ae4b739a24e8","fromNode":"6261cef39eaf98d6","fromSide":"bottom","toNode":"e8134bf3eff07a38","toSide":"top"},
+		{"id":"9bafaed2b4eebcb5","fromNode":"6261cef39eaf98d6","fromSide":"bottom","toNode":"8a9895e47cc44e99","toSide":"top"},
+		{"id":"dc13f1c9a6cf478c","fromNode":"e3e2fc2ba8a77713","fromSide":"bottom","toNode":"f6cf86a44cf7b12d","toSide":"top"},
+		{"id":"96f8bc730f96a2e8","fromNode":"74cc8697ef472ad4","fromSide":"bottom","toNode":"794f9417abf2234c","toSide":"top"}
 	]
 }
