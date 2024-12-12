@@ -32,6 +32,7 @@ div.general-boxes {
       box-sizing: border-box;
       align-content: center;
       padding-left: 15px;
+      padding-right: 15px;
       border-radius: 10px;
 }
 div.color-5 {
@@ -41,6 +42,29 @@ div.color-5 {
 .line {
       stroke: #7E7E7E;
       stroke-width: 3;
+}
+.arrow {
+      position: absolute;
+      border: solid #7E7E7E;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+}
+.left {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+}
+.right {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+}
+.bottom {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+}
+.top {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
 }</style>
 </head>
 <body>
@@ -908,285 +932,563 @@ div.color-5 {
 </nav>
 <h1 class="file-title">British Isles.CANVAS</h1 class="file-title">
 <div id="outer-box">
-<svg id="svg" width="90700" height="920">
-<line style="cursor:pointer" class="line" x1="350" y1="70.0" x2="650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="750" y1="70.0" x2="1050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="1150" y1="70.0" x2="1450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="1550" y1="70.0" x2="1850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="1950" y1="70.0" x2="2250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="2350" y1="70.0" x2="2650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="2750" y1="70.0" x2="3050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="3150" y1="70.0" x2="3450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="3550" y1="70.0" x2="3850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="3950" y1="70.0" x2="4250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="4350" y1="70.0" x2="4650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="4750" y1="70.0" x2="5050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="5150" y1="70.0" x2="5450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="5550" y1="70.0" x2="5850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="5950" y1="70.0" x2="6250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="6350" y1="70.0" x2="6650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="6750" y1="70.0" x2="7050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="7150" y1="70.0" x2="7450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="7550" y1="70.0" x2="7850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="7950" y1="70.0" x2="8250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="8350" y1="70.0" x2="8650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="8750" y1="70.0" x2="9050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="9150" y1="70.0" x2="9450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="9550" y1="70.0" x2="9850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="9950" y1="70.0" x2="10250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="10350" y1="70.0" x2="10650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="10750" y1="70.0" x2="11050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="11150" y1="70.0" x2="11450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="11550" y1="70.0" x2="11850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="11950" y1="70.0" x2="12250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="12350" y1="70.0" x2="12650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="12750" y1="70.0" x2="13050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="13150" y1="70.0" x2="13450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="13550" y1="70.0" x2="13850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="13950" y1="70.0" x2="14250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="14350" y1="70.0" x2="14650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="14750" y1="70.0" x2="15050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="15150" y1="70.0" x2="15450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="15550" y1="70.0" x2="15850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="15950" y1="70.0" x2="16250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="16350" y1="70.0" x2="16650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="16750" y1="70.0" x2="17050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="17150" y1="70.0" x2="17450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="17550" y1="70.0" x2="17850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="17950" y1="70.0" x2="18250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="18350" y1="70.0" x2="18650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="18750" y1="70.0" x2="19050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="19150" y1="70.0" x2="19450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="19550" y1="70.0" x2="19850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="19950" y1="70.0" x2="20250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="20350" y1="70.0" x2="20650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="20750" y1="70.0" x2="21050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="21150" y1="70.0" x2="21450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="21550" y1="70.0" x2="21850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="21950" y1="70.0" x2="22250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="22350" y1="70.0" x2="22650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="22750" y1="70.0" x2="23050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="23150" y1="70.0" x2="23450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="23550" y1="70.0" x2="23850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="23950" y1="70.0" x2="24250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="24350" y1="70.0" x2="24650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="24750" y1="70.0" x2="25050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="25150" y1="70.0" x2="25450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="25550" y1="70.0" x2="25850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="25950" y1="70.0" x2="26250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="26350" y1="70.0" x2="26650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="26750" y1="70.0" x2="27050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="27150" y1="70.0" x2="27450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="27550" y1="70.0" x2="27850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="27950" y1="70.0" x2="28250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="28350" y1="70.0" x2="28650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="28750" y1="70.0" x2="29050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="29150" y1="70.0" x2="29450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="29550" y1="70.0" x2="29850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="29950" y1="70.0" x2="30250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="30350" y1="70.0" x2="30650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="30750" y1="70.0" x2="31050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="31150" y1="70.0" x2="31450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="31550" y1="70.0" x2="31850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="31950" y1="70.0" x2="32250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="32350" y1="70.0" x2="32650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="32750" y1="70.0" x2="33050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="33150" y1="70.0" x2="33450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="33550" y1="70.0" x2="33850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="33950" y1="70.0" x2="34250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="34350" y1="70.0" x2="34650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="34750" y1="70.0" x2="35050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="35150" y1="70.0" x2="35450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="35550" y1="70.0" x2="35850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="35950" y1="70.0" x2="36250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="36350" y1="70.0" x2="36650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="36750" y1="70.0" x2="37050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="37150" y1="70.0" x2="37450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="37550" y1="70.0" x2="37850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="37950" y1="70.0" x2="38250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="38350" y1="70.0" x2="38650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="38750" y1="70.0" x2="39050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="39150" y1="70.0" x2="39450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="39550" y1="70.0" x2="39850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="39950" y1="70.0" x2="40250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="40350" y1="70.0" x2="40650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="40750" y1="70.0" x2="41050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="41150" y1="70.0" x2="41450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="41550" y1="70.0" x2="41850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="41950" y1="70.0" x2="42250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="42350" y1="70.0" x2="42650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="42750" y1="70.0" x2="43050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="43150" y1="70.0" x2="43450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="43550" y1="70.0" x2="43850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="43950" y1="70.0" x2="44250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="44350" y1="70.0" x2="44650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="44750" y1="70.0" x2="45050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="45150" y1="70.0" x2="45450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="45550" y1="70.0" x2="45850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="45950" y1="70.0" x2="46250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="46350" y1="70.0" x2="46650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="46750" y1="70.0" x2="47050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="47150" y1="70.0" x2="47450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="47550" y1="70.0" x2="47850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="47950" y1="70.0" x2="48250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="48350" y1="70.0" x2="48650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="48750" y1="70.0" x2="49050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="49150" y1="70.0" x2="49450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="49550" y1="70.0" x2="49850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="49950" y1="70.0" x2="50250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="50350" y1="70.0" x2="50650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="50750" y1="70.0" x2="51050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="51150" y1="70.0" x2="51450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="51550" y1="70.0" x2="51850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="51950" y1="70.0" x2="52250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="52350" y1="70.0" x2="52650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="52750" y1="70.0" x2="53050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="53150" y1="70.0" x2="53450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="53550" y1="70.0" x2="53850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="53950" y1="70.0" x2="54250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="54350" y1="70.0" x2="54650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="54750" y1="70.0" x2="55050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="55150" y1="70.0" x2="55450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="55550" y1="70.0" x2="55850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="55950" y1="70.0" x2="56250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="56350" y1="70.0" x2="56650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="56750" y1="70.0" x2="57050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="57150" y1="70.0" x2="57450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="57550" y1="70.0" x2="57850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="57950" y1="70.0" x2="58250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="58350" y1="70.0" x2="58650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="58750" y1="70.0" x2="59050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="59150" y1="70.0" x2="59450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="59550" y1="70.0" x2="59850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="59950" y1="70.0" x2="60250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="60350" y1="70.0" x2="60650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="60750" y1="70.0" x2="61050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="61150" y1="70.0" x2="61450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="61550" y1="70.0" x2="61850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="61950" y1="70.0" x2="62250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="62350" y1="70.0" x2="62650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="62750" y1="70.0" x2="63050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="63150" y1="70.0" x2="63450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="63550" y1="70.0" x2="63850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="63950" y1="70.0" x2="64250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="64350" y1="70.0" x2="64650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="64750" y1="70.0" x2="65050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="65150" y1="70.0" x2="65450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="65550" y1="70.0" x2="65850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="65950" y1="70.0" x2="66250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="66350" y1="70.0" x2="66650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="66750" y1="70.0" x2="67050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="67150" y1="70.0" x2="67450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="67550" y1="70.0" x2="67850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="67950" y1="70.0" x2="68250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="68350" y1="70.0" x2="68650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="68750" y1="70.0" x2="69050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="69150" y1="70.0" x2="69450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="69550" y1="70.0" x2="69850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="69950" y1="70.0" x2="70250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="70350" y1="70.0" x2="70650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="70750" y1="70.0" x2="71050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="71150" y1="70.0" x2="71450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="71550" y1="70.0" x2="71850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="71950" y1="70.0" x2="72250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="72350" y1="70.0" x2="72650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="72750" y1="70.0" x2="73050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="73150" y1="70.0" x2="73450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="73550" y1="70.0" x2="73850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="73950" y1="70.0" x2="74250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="74350" y1="70.0" x2="74650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="74750" y1="70.0" x2="75050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="75150" y1="70.0" x2="75450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="75550" y1="70.0" x2="75850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="75950" y1="70.0" x2="76250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="76350" y1="70.0" x2="76650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="76750" y1="70.0" x2="77050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="77150" y1="70.0" x2="77450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="77550" y1="70.0" x2="77850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="77950" y1="70.0" x2="78250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="78350" y1="70.0" x2="78650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="78750" y1="70.0" x2="79050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="79150" y1="70.0" x2="79450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="79550" y1="70.0" x2="79850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="79950" y1="70.0" x2="80250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="80350" y1="70.0" x2="80650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="80750" y1="70.0" x2="81050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="81150" y1="70.0" x2="81450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="81550" y1="70.0" x2="81850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="81950" y1="70.0" x2="82250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="82350" y1="70.0" x2="82650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="82750" y1="70.0" x2="83050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="83150" y1="70.0" x2="83450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="83550" y1="70.0" x2="83850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="83950" y1="70.0" x2="84250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="84350" y1="70.0" x2="84650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="84750" y1="70.0" x2="85050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="85150" y1="70.0" x2="85450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="85550" y1="70.0" x2="85850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="85950" y1="70.0" x2="86250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="86350" y1="70.0" x2="86650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="86750" y1="70.0" x2="87050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="87150" y1="70.0" x2="87450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="87550" y1="70.0" x2="87850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="87950" y1="70.0" x2="88250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="88350" y1="70.0" x2="88650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="88750" y1="70.0" x2="89050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="89150" y1="70.0" x2="89450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="89550" y1="70.0" x2="89850" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="89950" y1="70.0" x2="90250" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="90350" y1="70.0" x2="90650" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="90750" y1="70.0" x2="91050" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="91150" y1="70.0" x2="91450" y2="70.0"/>
-<line style="cursor:pointer" class="line" x1="300.0" y1="100" x2="300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="700.0" y1="100" x2="700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="700.0" y1="100" x2="700.0" y2="290"/>
-<line style="cursor:pointer" class="line" x1="1100.0" y1="100" x2="1100.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="1500.0" y1="100" x2="1500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="425" y1="250.0" x2="575" y2="210.0"/>
-<line style="cursor:pointer" class="line" x1="825" y1="210.0" x2="1375" y2="250.0"/>
-<line style="cursor:pointer" class="line" x1="2300.0" y1="100" x2="2300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="3500.0" y1="100" x2="3500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="4300.0" y1="100" x2="4300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="7500.0" y1="100" x2="7500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="7900.0" y1="100" x2="7900.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="7625" y1="330.0" x2="7775" y2="400.0"/>
-<line style="cursor:pointer" class="line" x1="7900.0" y1="100" x2="7900.0" y2="280"/>
-<line style="cursor:pointer" class="line" x1="9500.0" y1="100" x2="9500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="8300.0" y1="100" x2="8300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="10300.0" y1="100" x2="10300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="10700.0" y1="100" x2="10700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="10425" y1="230.0" x2="11375" y2="250.0"/>
-<line style="cursor:pointer" class="line" x1="11500.0" y1="100" x2="11500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="11500.0" y1="100" x2="11500.0" y2="380"/>
-<line style="cursor:pointer" class="line" x1="12300.0" y1="100" x2="12300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="12700.0" y1="100" x2="12700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="13500.0" y1="100" x2="13500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="13900.0" y1="100" x2="13900.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="12825" y1="260.0" x2="13375" y2="260.0"/>
-<line style="cursor:pointer" class="line" x1="14300.0" y1="100" x2="14300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="15100.0" y1="100" x2="15100.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="15100.0" y1="100" x2="15100.0" y2="480"/>
-<line style="cursor:pointer" class="line" x1="15500.0" y1="100" x2="15500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="15500.0" y1="340" x2="15500.0" y2="420"/>
-<line style="cursor:pointer" class="line" x1="15500.0" y1="100" x2="15500.0" y2="570"/>
-<line style="cursor:pointer" class="line" x1="15500.0" y1="100" x2="15500.0" y2="780"/>
-<line style="cursor:pointer" class="line" x1="15500.0" y1="100" x2="15500.0" y2="1320"/>
-<line style="cursor:pointer" class="line" x1="15900.0" y1="100" x2="15900.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="15900.0" y1="100" x2="15900.0" y2="420"/>
-<line style="cursor:pointer" class="line" x1="16700.0" y1="100" x2="16700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="16700.0" y1="100" x2="16700.0" y2="420"/>
-<line style="cursor:pointer" class="line" x1="15900.0" y1="540" x2="15900.0" y2="620"/>
-<line style="cursor:pointer" class="line" x1="17500.0" y1="100" x2="17500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="17500.0" y1="300" x2="17500.0" y2="380"/>
-<line style="cursor:pointer" class="line" x1="18300.0" y1="100" x2="18300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="19500.0" y1="100" x2="19500.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="19500.0" y1="260" x2="19500.0" y2="340"/>
-<line style="cursor:pointer" class="line" x1="18700.0" y1="100" x2="18700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="19900.0" y1="100" x2="19900.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="20300.0" y1="100" x2="20300.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="20300.0" y1="100" x2="20300.0" y2="440"/>
-<line style="cursor:pointer" class="line" x1="20700.0" y1="100" x2="20700.0" y2="180"/>
-<line style="cursor:pointer" class="line" x1="21100.0" y1="100" x2="21100.0" y2="180"/>
+<i class="arrow left" style="left:640px;top:65.0px;"></i>
+<i class="arrow left" style="left:1040px;top:65.0px;"></i>
+<i class="arrow left" style="left:1440px;top:65.0px;"></i>
+<i class="arrow left" style="left:1840px;top:65.0px;"></i>
+<i class="arrow left" style="left:2240px;top:65.0px;"></i>
+<i class="arrow left" style="left:2640px;top:65.0px;"></i>
+<i class="arrow left" style="left:3040px;top:65.0px;"></i>
+<i class="arrow left" style="left:3440px;top:65.0px;"></i>
+<i class="arrow left" style="left:3840px;top:65.0px;"></i>
+<i class="arrow left" style="left:4240px;top:65.0px;"></i>
+<i class="arrow left" style="left:4640px;top:65.0px;"></i>
+<i class="arrow left" style="left:5040px;top:65.0px;"></i>
+<i class="arrow left" style="left:5440px;top:65.0px;"></i>
+<i class="arrow left" style="left:5840px;top:65.0px;"></i>
+<i class="arrow left" style="left:6240px;top:65.0px;"></i>
+<i class="arrow left" style="left:6640px;top:65.0px;"></i>
+<i class="arrow left" style="left:7040px;top:65.0px;"></i>
+<i class="arrow left" style="left:7440px;top:65.0px;"></i>
+<i class="arrow left" style="left:7840px;top:65.0px;"></i>
+<i class="arrow left" style="left:8240px;top:65.0px;"></i>
+<i class="arrow left" style="left:8640px;top:65.0px;"></i>
+<i class="arrow left" style="left:9040px;top:65.0px;"></i>
+<i class="arrow left" style="left:9440px;top:65.0px;"></i>
+<i class="arrow left" style="left:9840px;top:65.0px;"></i>
+<i class="arrow left" style="left:10240px;top:65.0px;"></i>
+<i class="arrow left" style="left:10640px;top:65.0px;"></i>
+<i class="arrow left" style="left:11040px;top:65.0px;"></i>
+<i class="arrow left" style="left:11440px;top:65.0px;"></i>
+<i class="arrow left" style="left:11840px;top:65.0px;"></i>
+<i class="arrow left" style="left:12240px;top:65.0px;"></i>
+<i class="arrow left" style="left:12640px;top:65.0px;"></i>
+<i class="arrow left" style="left:13040px;top:65.0px;"></i>
+<i class="arrow left" style="left:13440px;top:65.0px;"></i>
+<i class="arrow left" style="left:13840px;top:65.0px;"></i>
+<i class="arrow left" style="left:14240px;top:65.0px;"></i>
+<i class="arrow left" style="left:14640px;top:65.0px;"></i>
+<i class="arrow left" style="left:15040px;top:65.0px;"></i>
+<i class="arrow left" style="left:15440px;top:65.0px;"></i>
+<i class="arrow left" style="left:15840px;top:65.0px;"></i>
+<i class="arrow left" style="left:16240px;top:65.0px;"></i>
+<i class="arrow left" style="left:16640px;top:65.0px;"></i>
+<i class="arrow left" style="left:17040px;top:65.0px;"></i>
+<i class="arrow left" style="left:17440px;top:65.0px;"></i>
+<i class="arrow left" style="left:17840px;top:65.0px;"></i>
+<i class="arrow left" style="left:18240px;top:65.0px;"></i>
+<i class="arrow left" style="left:18640px;top:65.0px;"></i>
+<i class="arrow left" style="left:19040px;top:65.0px;"></i>
+<i class="arrow left" style="left:19440px;top:65.0px;"></i>
+<i class="arrow left" style="left:19840px;top:65.0px;"></i>
+<i class="arrow left" style="left:20240px;top:65.0px;"></i>
+<i class="arrow left" style="left:20640px;top:65.0px;"></i>
+<i class="arrow left" style="left:21040px;top:65.0px;"></i>
+<i class="arrow left" style="left:21440px;top:65.0px;"></i>
+<i class="arrow left" style="left:21840px;top:65.0px;"></i>
+<i class="arrow left" style="left:22240px;top:65.0px;"></i>
+<i class="arrow left" style="left:22640px;top:65.0px;"></i>
+<i class="arrow left" style="left:23040px;top:65.0px;"></i>
+<i class="arrow left" style="left:23440px;top:65.0px;"></i>
+<i class="arrow left" style="left:23840px;top:65.0px;"></i>
+<i class="arrow left" style="left:24240px;top:65.0px;"></i>
+<i class="arrow left" style="left:24640px;top:65.0px;"></i>
+<i class="arrow left" style="left:25040px;top:65.0px;"></i>
+<i class="arrow left" style="left:25440px;top:65.0px;"></i>
+<i class="arrow left" style="left:25840px;top:65.0px;"></i>
+<i class="arrow left" style="left:26240px;top:65.0px;"></i>
+<i class="arrow left" style="left:26640px;top:65.0px;"></i>
+<i class="arrow left" style="left:27040px;top:65.0px;"></i>
+<i class="arrow left" style="left:27440px;top:65.0px;"></i>
+<i class="arrow left" style="left:27840px;top:65.0px;"></i>
+<i class="arrow left" style="left:28240px;top:65.0px;"></i>
+<i class="arrow left" style="left:28640px;top:65.0px;"></i>
+<i class="arrow left" style="left:29040px;top:65.0px;"></i>
+<i class="arrow left" style="left:29440px;top:65.0px;"></i>
+<i class="arrow left" style="left:29840px;top:65.0px;"></i>
+<i class="arrow left" style="left:30240px;top:65.0px;"></i>
+<i class="arrow left" style="left:30640px;top:65.0px;"></i>
+<i class="arrow left" style="left:31040px;top:65.0px;"></i>
+<i class="arrow left" style="left:31440px;top:65.0px;"></i>
+<i class="arrow left" style="left:31840px;top:65.0px;"></i>
+<i class="arrow left" style="left:32240px;top:65.0px;"></i>
+<i class="arrow left" style="left:32640px;top:65.0px;"></i>
+<i class="arrow left" style="left:33040px;top:65.0px;"></i>
+<i class="arrow left" style="left:33440px;top:65.0px;"></i>
+<i class="arrow left" style="left:33840px;top:65.0px;"></i>
+<i class="arrow left" style="left:34240px;top:65.0px;"></i>
+<i class="arrow left" style="left:34640px;top:65.0px;"></i>
+<i class="arrow left" style="left:35040px;top:65.0px;"></i>
+<i class="arrow left" style="left:35440px;top:65.0px;"></i>
+<i class="arrow left" style="left:35840px;top:65.0px;"></i>
+<i class="arrow left" style="left:36240px;top:65.0px;"></i>
+<i class="arrow left" style="left:36640px;top:65.0px;"></i>
+<i class="arrow left" style="left:37040px;top:65.0px;"></i>
+<i class="arrow left" style="left:37440px;top:65.0px;"></i>
+<i class="arrow left" style="left:37840px;top:65.0px;"></i>
+<i class="arrow left" style="left:38240px;top:65.0px;"></i>
+<i class="arrow left" style="left:38640px;top:65.0px;"></i>
+<i class="arrow left" style="left:39040px;top:65.0px;"></i>
+<i class="arrow left" style="left:39440px;top:65.0px;"></i>
+<i class="arrow left" style="left:39840px;top:65.0px;"></i>
+<i class="arrow left" style="left:40240px;top:65.0px;"></i>
+<i class="arrow left" style="left:40640px;top:65.0px;"></i>
+<i class="arrow left" style="left:41040px;top:65.0px;"></i>
+<i class="arrow left" style="left:41440px;top:65.0px;"></i>
+<i class="arrow left" style="left:41840px;top:65.0px;"></i>
+<i class="arrow left" style="left:42240px;top:65.0px;"></i>
+<i class="arrow left" style="left:42640px;top:65.0px;"></i>
+<i class="arrow left" style="left:43040px;top:65.0px;"></i>
+<i class="arrow left" style="left:43440px;top:65.0px;"></i>
+<i class="arrow left" style="left:43840px;top:65.0px;"></i>
+<i class="arrow left" style="left:44240px;top:65.0px;"></i>
+<i class="arrow left" style="left:44640px;top:65.0px;"></i>
+<i class="arrow left" style="left:45040px;top:65.0px;"></i>
+<i class="arrow left" style="left:45440px;top:65.0px;"></i>
+<i class="arrow left" style="left:45840px;top:65.0px;"></i>
+<i class="arrow left" style="left:46240px;top:65.0px;"></i>
+<i class="arrow left" style="left:46640px;top:65.0px;"></i>
+<i class="arrow left" style="left:47040px;top:65.0px;"></i>
+<i class="arrow left" style="left:47440px;top:65.0px;"></i>
+<i class="arrow left" style="left:47840px;top:65.0px;"></i>
+<i class="arrow left" style="left:48240px;top:65.0px;"></i>
+<i class="arrow left" style="left:48640px;top:65.0px;"></i>
+<i class="arrow left" style="left:49040px;top:65.0px;"></i>
+<i class="arrow left" style="left:49440px;top:65.0px;"></i>
+<i class="arrow left" style="left:49840px;top:65.0px;"></i>
+<i class="arrow left" style="left:50240px;top:65.0px;"></i>
+<i class="arrow left" style="left:50640px;top:65.0px;"></i>
+<i class="arrow left" style="left:51040px;top:65.0px;"></i>
+<i class="arrow left" style="left:51440px;top:65.0px;"></i>
+<i class="arrow left" style="left:51840px;top:65.0px;"></i>
+<i class="arrow left" style="left:52240px;top:65.0px;"></i>
+<i class="arrow left" style="left:52640px;top:65.0px;"></i>
+<i class="arrow left" style="left:53040px;top:65.0px;"></i>
+<i class="arrow left" style="left:53440px;top:65.0px;"></i>
+<i class="arrow left" style="left:53840px;top:65.0px;"></i>
+<i class="arrow left" style="left:54240px;top:65.0px;"></i>
+<i class="arrow left" style="left:54640px;top:65.0px;"></i>
+<i class="arrow left" style="left:55040px;top:65.0px;"></i>
+<i class="arrow left" style="left:55440px;top:65.0px;"></i>
+<i class="arrow left" style="left:55840px;top:65.0px;"></i>
+<i class="arrow left" style="left:56240px;top:65.0px;"></i>
+<i class="arrow left" style="left:56640px;top:65.0px;"></i>
+<i class="arrow left" style="left:57040px;top:65.0px;"></i>
+<i class="arrow left" style="left:57440px;top:65.0px;"></i>
+<i class="arrow left" style="left:57840px;top:65.0px;"></i>
+<i class="arrow left" style="left:58240px;top:65.0px;"></i>
+<i class="arrow left" style="left:58640px;top:65.0px;"></i>
+<i class="arrow left" style="left:59040px;top:65.0px;"></i>
+<i class="arrow left" style="left:59440px;top:65.0px;"></i>
+<i class="arrow left" style="left:59840px;top:65.0px;"></i>
+<i class="arrow left" style="left:60240px;top:65.0px;"></i>
+<i class="arrow left" style="left:60640px;top:65.0px;"></i>
+<i class="arrow left" style="left:61040px;top:65.0px;"></i>
+<i class="arrow left" style="left:61440px;top:65.0px;"></i>
+<i class="arrow left" style="left:61840px;top:65.0px;"></i>
+<i class="arrow left" style="left:62240px;top:65.0px;"></i>
+<i class="arrow left" style="left:62640px;top:65.0px;"></i>
+<i class="arrow left" style="left:63040px;top:65.0px;"></i>
+<i class="arrow left" style="left:63440px;top:65.0px;"></i>
+<i class="arrow left" style="left:63840px;top:65.0px;"></i>
+<i class="arrow left" style="left:64240px;top:65.0px;"></i>
+<i class="arrow left" style="left:64640px;top:65.0px;"></i>
+<i class="arrow left" style="left:65040px;top:65.0px;"></i>
+<i class="arrow left" style="left:65440px;top:65.0px;"></i>
+<i class="arrow left" style="left:65840px;top:65.0px;"></i>
+<i class="arrow left" style="left:66240px;top:65.0px;"></i>
+<i class="arrow left" style="left:66640px;top:65.0px;"></i>
+<i class="arrow left" style="left:67040px;top:65.0px;"></i>
+<i class="arrow left" style="left:67440px;top:65.0px;"></i>
+<i class="arrow left" style="left:67840px;top:65.0px;"></i>
+<i class="arrow left" style="left:68240px;top:65.0px;"></i>
+<i class="arrow left" style="left:68640px;top:65.0px;"></i>
+<i class="arrow left" style="left:69040px;top:65.0px;"></i>
+<i class="arrow left" style="left:69440px;top:65.0px;"></i>
+<i class="arrow left" style="left:69840px;top:65.0px;"></i>
+<i class="arrow left" style="left:70240px;top:65.0px;"></i>
+<i class="arrow left" style="left:70640px;top:65.0px;"></i>
+<i class="arrow left" style="left:71040px;top:65.0px;"></i>
+<i class="arrow left" style="left:71440px;top:65.0px;"></i>
+<i class="arrow left" style="left:71840px;top:65.0px;"></i>
+<i class="arrow left" style="left:72240px;top:65.0px;"></i>
+<i class="arrow left" style="left:72640px;top:65.0px;"></i>
+<i class="arrow left" style="left:73040px;top:65.0px;"></i>
+<i class="arrow left" style="left:73440px;top:65.0px;"></i>
+<i class="arrow left" style="left:73840px;top:65.0px;"></i>
+<i class="arrow left" style="left:74240px;top:65.0px;"></i>
+<i class="arrow left" style="left:74640px;top:65.0px;"></i>
+<i class="arrow left" style="left:75040px;top:65.0px;"></i>
+<i class="arrow left" style="left:75440px;top:65.0px;"></i>
+<i class="arrow left" style="left:75840px;top:65.0px;"></i>
+<i class="arrow left" style="left:76240px;top:65.0px;"></i>
+<i class="arrow left" style="left:76640px;top:65.0px;"></i>
+<i class="arrow left" style="left:77040px;top:65.0px;"></i>
+<i class="arrow left" style="left:77440px;top:65.0px;"></i>
+<i class="arrow left" style="left:77840px;top:65.0px;"></i>
+<i class="arrow left" style="left:78240px;top:65.0px;"></i>
+<i class="arrow left" style="left:78640px;top:65.0px;"></i>
+<i class="arrow left" style="left:79040px;top:65.0px;"></i>
+<i class="arrow left" style="left:79440px;top:65.0px;"></i>
+<i class="arrow left" style="left:79840px;top:65.0px;"></i>
+<i class="arrow left" style="left:80240px;top:65.0px;"></i>
+<i class="arrow left" style="left:80640px;top:65.0px;"></i>
+<i class="arrow left" style="left:81040px;top:65.0px;"></i>
+<i class="arrow left" style="left:81440px;top:65.0px;"></i>
+<i class="arrow left" style="left:81840px;top:65.0px;"></i>
+<i class="arrow left" style="left:82240px;top:65.0px;"></i>
+<i class="arrow left" style="left:82640px;top:65.0px;"></i>
+<i class="arrow left" style="left:83040px;top:65.0px;"></i>
+<i class="arrow left" style="left:83440px;top:65.0px;"></i>
+<i class="arrow left" style="left:83840px;top:65.0px;"></i>
+<i class="arrow left" style="left:84240px;top:65.0px;"></i>
+<i class="arrow left" style="left:84640px;top:65.0px;"></i>
+<i class="arrow left" style="left:85040px;top:65.0px;"></i>
+<i class="arrow left" style="left:85440px;top:65.0px;"></i>
+<i class="arrow left" style="left:85840px;top:65.0px;"></i>
+<i class="arrow left" style="left:86240px;top:65.0px;"></i>
+<i class="arrow left" style="left:86640px;top:65.0px;"></i>
+<i class="arrow left" style="left:87040px;top:65.0px;"></i>
+<i class="arrow left" style="left:87440px;top:65.0px;"></i>
+<i class="arrow left" style="left:87840px;top:65.0px;"></i>
+<i class="arrow left" style="left:88240px;top:65.0px;"></i>
+<i class="arrow left" style="left:88640px;top:65.0px;"></i>
+<i class="arrow left" style="left:89040px;top:65.0px;"></i>
+<i class="arrow left" style="left:89440px;top:65.0px;"></i>
+<i class="arrow left" style="left:89840px;top:65.0px;"></i>
+<i class="arrow left" style="left:90240px;top:65.0px;"></i>
+<i class="arrow left" style="left:90640px;top:65.0px;"></i>
+<i class="arrow left" style="left:91040px;top:65.0px;"></i>
+<i class="arrow left" style="left:91440px;top:65.0px;"></i>
+<i class="arrow top" style="left:295.0px;top:170px;"></i>
+<i class="arrow top" style="left:695.0px;top:170px;"></i>
+<i class="arrow top" style="left:695.0px;top:280px;"></i>
+<i class="arrow top" style="left:1095.0px;top:170px;"></i>
+<i class="arrow top" style="left:1495.0px;top:170px;"></i>
+<i class="arrow left" style="left:565px;top:205.0px;"></i>
+<i class="arrow left" style="left:1365px;top:245.0px;"></i>
+<i class="arrow top" style="left:2295.0px;top:170px;"></i>
+<i class="arrow top" style="left:3495.0px;top:170px;"></i>
+<i class="arrow top" style="left:4295.0px;top:170px;"></i>
+<i class="arrow top" style="left:7495.0px;top:170px;"></i>
+<i class="arrow top" style="left:7895.0px;top:170px;"></i>
+<i class="arrow left" style="left:7765px;top:395.0px;"></i>
+<i class="arrow top" style="left:7895.0px;top:270px;"></i>
+<i class="arrow top" style="left:9495.0px;top:170px;"></i>
+<i class="arrow top" style="left:8295.0px;top:170px;"></i>
+<i class="arrow top" style="left:10295.0px;top:170px;"></i>
+<i class="arrow top" style="left:10695.0px;top:170px;"></i>
+<i class="arrow left" style="left:11365px;top:245.0px;"></i>
+<i class="arrow top" style="left:11495.0px;top:170px;"></i>
+<i class="arrow top" style="left:11495.0px;top:370px;"></i>
+<i class="arrow top" style="left:12295.0px;top:170px;"></i>
+<i class="arrow top" style="left:12695.0px;top:170px;"></i>
+<i class="arrow top" style="left:13495.0px;top:170px;"></i>
+<i class="arrow top" style="left:13895.0px;top:170px;"></i>
+<i class="arrow left" style="left:13365px;top:255.0px;"></i>
+<i class="arrow top" style="left:14295.0px;top:170px;"></i>
+<i class="arrow top" style="left:15095.0px;top:170px;"></i>
+<i class="arrow top" style="left:15095.0px;top:470px;"></i>
+<i class="arrow top" style="left:15495.0px;top:170px;"></i>
+<i class="arrow top" style="left:15495.0px;top:410px;"></i>
+<i class="arrow top" style="left:15495.0px;top:560px;"></i>
+<i class="arrow top" style="left:15495.0px;top:770px;"></i>
+<i class="arrow top" style="left:15495.0px;top:1310px;"></i>
+<i class="arrow top" style="left:15895.0px;top:170px;"></i>
+<i class="arrow top" style="left:15895.0px;top:410px;"></i>
+<i class="arrow top" style="left:16695.0px;top:170px;"></i>
+<i class="arrow top" style="left:16695.0px;top:410px;"></i>
+<i class="arrow top" style="left:15895.0px;top:610px;"></i>
+<i class="arrow top" style="left:17495.0px;top:170px;"></i>
+<i class="arrow top" style="left:17495.0px;top:370px;"></i>
+<i class="arrow top" style="left:18295.0px;top:170px;"></i>
+<i class="arrow top" style="left:19495.0px;top:170px;"></i>
+<i class="arrow top" style="left:19495.0px;top:330px;"></i>
+<i class="arrow top" style="left:18695.0px;top:170px;"></i>
+<i class="arrow top" style="left:19895.0px;top:170px;"></i>
+<i class="arrow top" style="left:20295.0px;top:170px;"></i>
+<i class="arrow top" style="left:20295.0px;top:430px;"></i>
+<i class="arrow top" style="left:20695.0px;top:170px;"></i>
+<i class="arrow top" style="left:21095.0px;top:170px;"></i>
+<svg id="svg" width="91700" height="1920">
+<line class="line" x1="350" y1="70.0" x2="650" y2="70.0"/>
+<line class="line" x1="750" y1="70.0" x2="1050" y2="70.0"/>
+<line class="line" x1="1150" y1="70.0" x2="1450" y2="70.0"/>
+<line class="line" x1="1550" y1="70.0" x2="1850" y2="70.0"/>
+<line class="line" x1="1950" y1="70.0" x2="2250" y2="70.0"/>
+<line class="line" x1="2350" y1="70.0" x2="2650" y2="70.0"/>
+<line class="line" x1="2750" y1="70.0" x2="3050" y2="70.0"/>
+<line class="line" x1="3150" y1="70.0" x2="3450" y2="70.0"/>
+<line class="line" x1="3550" y1="70.0" x2="3850" y2="70.0"/>
+<line class="line" x1="3950" y1="70.0" x2="4250" y2="70.0"/>
+<line class="line" x1="4350" y1="70.0" x2="4650" y2="70.0"/>
+<line class="line" x1="4750" y1="70.0" x2="5050" y2="70.0"/>
+<line class="line" x1="5150" y1="70.0" x2="5450" y2="70.0"/>
+<line class="line" x1="5550" y1="70.0" x2="5850" y2="70.0"/>
+<line class="line" x1="5950" y1="70.0" x2="6250" y2="70.0"/>
+<line class="line" x1="6350" y1="70.0" x2="6650" y2="70.0"/>
+<line class="line" x1="6750" y1="70.0" x2="7050" y2="70.0"/>
+<line class="line" x1="7150" y1="70.0" x2="7450" y2="70.0"/>
+<line class="line" x1="7550" y1="70.0" x2="7850" y2="70.0"/>
+<line class="line" x1="7950" y1="70.0" x2="8250" y2="70.0"/>
+<line class="line" x1="8350" y1="70.0" x2="8650" y2="70.0"/>
+<line class="line" x1="8750" y1="70.0" x2="9050" y2="70.0"/>
+<line class="line" x1="9150" y1="70.0" x2="9450" y2="70.0"/>
+<line class="line" x1="9550" y1="70.0" x2="9850" y2="70.0"/>
+<line class="line" x1="9950" y1="70.0" x2="10250" y2="70.0"/>
+<line class="line" x1="10350" y1="70.0" x2="10650" y2="70.0"/>
+<line class="line" x1="10750" y1="70.0" x2="11050" y2="70.0"/>
+<line class="line" x1="11150" y1="70.0" x2="11450" y2="70.0"/>
+<line class="line" x1="11550" y1="70.0" x2="11850" y2="70.0"/>
+<line class="line" x1="11950" y1="70.0" x2="12250" y2="70.0"/>
+<line class="line" x1="12350" y1="70.0" x2="12650" y2="70.0"/>
+<line class="line" x1="12750" y1="70.0" x2="13050" y2="70.0"/>
+<line class="line" x1="13150" y1="70.0" x2="13450" y2="70.0"/>
+<line class="line" x1="13550" y1="70.0" x2="13850" y2="70.0"/>
+<line class="line" x1="13950" y1="70.0" x2="14250" y2="70.0"/>
+<line class="line" x1="14350" y1="70.0" x2="14650" y2="70.0"/>
+<line class="line" x1="14750" y1="70.0" x2="15050" y2="70.0"/>
+<line class="line" x1="15150" y1="70.0" x2="15450" y2="70.0"/>
+<line class="line" x1="15550" y1="70.0" x2="15850" y2="70.0"/>
+<line class="line" x1="15950" y1="70.0" x2="16250" y2="70.0"/>
+<line class="line" x1="16350" y1="70.0" x2="16650" y2="70.0"/>
+<line class="line" x1="16750" y1="70.0" x2="17050" y2="70.0"/>
+<line class="line" x1="17150" y1="70.0" x2="17450" y2="70.0"/>
+<line class="line" x1="17550" y1="70.0" x2="17850" y2="70.0"/>
+<line class="line" x1="17950" y1="70.0" x2="18250" y2="70.0"/>
+<line class="line" x1="18350" y1="70.0" x2="18650" y2="70.0"/>
+<line class="line" x1="18750" y1="70.0" x2="19050" y2="70.0"/>
+<line class="line" x1="19150" y1="70.0" x2="19450" y2="70.0"/>
+<line class="line" x1="19550" y1="70.0" x2="19850" y2="70.0"/>
+<line class="line" x1="19950" y1="70.0" x2="20250" y2="70.0"/>
+<line class="line" x1="20350" y1="70.0" x2="20650" y2="70.0"/>
+<line class="line" x1="20750" y1="70.0" x2="21050" y2="70.0"/>
+<line class="line" x1="21150" y1="70.0" x2="21450" y2="70.0"/>
+<line class="line" x1="21550" y1="70.0" x2="21850" y2="70.0"/>
+<line class="line" x1="21950" y1="70.0" x2="22250" y2="70.0"/>
+<line class="line" x1="22350" y1="70.0" x2="22650" y2="70.0"/>
+<line class="line" x1="22750" y1="70.0" x2="23050" y2="70.0"/>
+<line class="line" x1="23150" y1="70.0" x2="23450" y2="70.0"/>
+<line class="line" x1="23550" y1="70.0" x2="23850" y2="70.0"/>
+<line class="line" x1="23950" y1="70.0" x2="24250" y2="70.0"/>
+<line class="line" x1="24350" y1="70.0" x2="24650" y2="70.0"/>
+<line class="line" x1="24750" y1="70.0" x2="25050" y2="70.0"/>
+<line class="line" x1="25150" y1="70.0" x2="25450" y2="70.0"/>
+<line class="line" x1="25550" y1="70.0" x2="25850" y2="70.0"/>
+<line class="line" x1="25950" y1="70.0" x2="26250" y2="70.0"/>
+<line class="line" x1="26350" y1="70.0" x2="26650" y2="70.0"/>
+<line class="line" x1="26750" y1="70.0" x2="27050" y2="70.0"/>
+<line class="line" x1="27150" y1="70.0" x2="27450" y2="70.0"/>
+<line class="line" x1="27550" y1="70.0" x2="27850" y2="70.0"/>
+<line class="line" x1="27950" y1="70.0" x2="28250" y2="70.0"/>
+<line class="line" x1="28350" y1="70.0" x2="28650" y2="70.0"/>
+<line class="line" x1="28750" y1="70.0" x2="29050" y2="70.0"/>
+<line class="line" x1="29150" y1="70.0" x2="29450" y2="70.0"/>
+<line class="line" x1="29550" y1="70.0" x2="29850" y2="70.0"/>
+<line class="line" x1="29950" y1="70.0" x2="30250" y2="70.0"/>
+<line class="line" x1="30350" y1="70.0" x2="30650" y2="70.0"/>
+<line class="line" x1="30750" y1="70.0" x2="31050" y2="70.0"/>
+<line class="line" x1="31150" y1="70.0" x2="31450" y2="70.0"/>
+<line class="line" x1="31550" y1="70.0" x2="31850" y2="70.0"/>
+<line class="line" x1="31950" y1="70.0" x2="32250" y2="70.0"/>
+<line class="line" x1="32350" y1="70.0" x2="32650" y2="70.0"/>
+<line class="line" x1="32750" y1="70.0" x2="33050" y2="70.0"/>
+<line class="line" x1="33150" y1="70.0" x2="33450" y2="70.0"/>
+<line class="line" x1="33550" y1="70.0" x2="33850" y2="70.0"/>
+<line class="line" x1="33950" y1="70.0" x2="34250" y2="70.0"/>
+<line class="line" x1="34350" y1="70.0" x2="34650" y2="70.0"/>
+<line class="line" x1="34750" y1="70.0" x2="35050" y2="70.0"/>
+<line class="line" x1="35150" y1="70.0" x2="35450" y2="70.0"/>
+<line class="line" x1="35550" y1="70.0" x2="35850" y2="70.0"/>
+<line class="line" x1="35950" y1="70.0" x2="36250" y2="70.0"/>
+<line class="line" x1="36350" y1="70.0" x2="36650" y2="70.0"/>
+<line class="line" x1="36750" y1="70.0" x2="37050" y2="70.0"/>
+<line class="line" x1="37150" y1="70.0" x2="37450" y2="70.0"/>
+<line class="line" x1="37550" y1="70.0" x2="37850" y2="70.0"/>
+<line class="line" x1="37950" y1="70.0" x2="38250" y2="70.0"/>
+<line class="line" x1="38350" y1="70.0" x2="38650" y2="70.0"/>
+<line class="line" x1="38750" y1="70.0" x2="39050" y2="70.0"/>
+<line class="line" x1="39150" y1="70.0" x2="39450" y2="70.0"/>
+<line class="line" x1="39550" y1="70.0" x2="39850" y2="70.0"/>
+<line class="line" x1="39950" y1="70.0" x2="40250" y2="70.0"/>
+<line class="line" x1="40350" y1="70.0" x2="40650" y2="70.0"/>
+<line class="line" x1="40750" y1="70.0" x2="41050" y2="70.0"/>
+<line class="line" x1="41150" y1="70.0" x2="41450" y2="70.0"/>
+<line class="line" x1="41550" y1="70.0" x2="41850" y2="70.0"/>
+<line class="line" x1="41950" y1="70.0" x2="42250" y2="70.0"/>
+<line class="line" x1="42350" y1="70.0" x2="42650" y2="70.0"/>
+<line class="line" x1="42750" y1="70.0" x2="43050" y2="70.0"/>
+<line class="line" x1="43150" y1="70.0" x2="43450" y2="70.0"/>
+<line class="line" x1="43550" y1="70.0" x2="43850" y2="70.0"/>
+<line class="line" x1="43950" y1="70.0" x2="44250" y2="70.0"/>
+<line class="line" x1="44350" y1="70.0" x2="44650" y2="70.0"/>
+<line class="line" x1="44750" y1="70.0" x2="45050" y2="70.0"/>
+<line class="line" x1="45150" y1="70.0" x2="45450" y2="70.0"/>
+<line class="line" x1="45550" y1="70.0" x2="45850" y2="70.0"/>
+<line class="line" x1="45950" y1="70.0" x2="46250" y2="70.0"/>
+<line class="line" x1="46350" y1="70.0" x2="46650" y2="70.0"/>
+<line class="line" x1="46750" y1="70.0" x2="47050" y2="70.0"/>
+<line class="line" x1="47150" y1="70.0" x2="47450" y2="70.0"/>
+<line class="line" x1="47550" y1="70.0" x2="47850" y2="70.0"/>
+<line class="line" x1="47950" y1="70.0" x2="48250" y2="70.0"/>
+<line class="line" x1="48350" y1="70.0" x2="48650" y2="70.0"/>
+<line class="line" x1="48750" y1="70.0" x2="49050" y2="70.0"/>
+<line class="line" x1="49150" y1="70.0" x2="49450" y2="70.0"/>
+<line class="line" x1="49550" y1="70.0" x2="49850" y2="70.0"/>
+<line class="line" x1="49950" y1="70.0" x2="50250" y2="70.0"/>
+<line class="line" x1="50350" y1="70.0" x2="50650" y2="70.0"/>
+<line class="line" x1="50750" y1="70.0" x2="51050" y2="70.0"/>
+<line class="line" x1="51150" y1="70.0" x2="51450" y2="70.0"/>
+<line class="line" x1="51550" y1="70.0" x2="51850" y2="70.0"/>
+<line class="line" x1="51950" y1="70.0" x2="52250" y2="70.0"/>
+<line class="line" x1="52350" y1="70.0" x2="52650" y2="70.0"/>
+<line class="line" x1="52750" y1="70.0" x2="53050" y2="70.0"/>
+<line class="line" x1="53150" y1="70.0" x2="53450" y2="70.0"/>
+<line class="line" x1="53550" y1="70.0" x2="53850" y2="70.0"/>
+<line class="line" x1="53950" y1="70.0" x2="54250" y2="70.0"/>
+<line class="line" x1="54350" y1="70.0" x2="54650" y2="70.0"/>
+<line class="line" x1="54750" y1="70.0" x2="55050" y2="70.0"/>
+<line class="line" x1="55150" y1="70.0" x2="55450" y2="70.0"/>
+<line class="line" x1="55550" y1="70.0" x2="55850" y2="70.0"/>
+<line class="line" x1="55950" y1="70.0" x2="56250" y2="70.0"/>
+<line class="line" x1="56350" y1="70.0" x2="56650" y2="70.0"/>
+<line class="line" x1="56750" y1="70.0" x2="57050" y2="70.0"/>
+<line class="line" x1="57150" y1="70.0" x2="57450" y2="70.0"/>
+<line class="line" x1="57550" y1="70.0" x2="57850" y2="70.0"/>
+<line class="line" x1="57950" y1="70.0" x2="58250" y2="70.0"/>
+<line class="line" x1="58350" y1="70.0" x2="58650" y2="70.0"/>
+<line class="line" x1="58750" y1="70.0" x2="59050" y2="70.0"/>
+<line class="line" x1="59150" y1="70.0" x2="59450" y2="70.0"/>
+<line class="line" x1="59550" y1="70.0" x2="59850" y2="70.0"/>
+<line class="line" x1="59950" y1="70.0" x2="60250" y2="70.0"/>
+<line class="line" x1="60350" y1="70.0" x2="60650" y2="70.0"/>
+<line class="line" x1="60750" y1="70.0" x2="61050" y2="70.0"/>
+<line class="line" x1="61150" y1="70.0" x2="61450" y2="70.0"/>
+<line class="line" x1="61550" y1="70.0" x2="61850" y2="70.0"/>
+<line class="line" x1="61950" y1="70.0" x2="62250" y2="70.0"/>
+<line class="line" x1="62350" y1="70.0" x2="62650" y2="70.0"/>
+<line class="line" x1="62750" y1="70.0" x2="63050" y2="70.0"/>
+<line class="line" x1="63150" y1="70.0" x2="63450" y2="70.0"/>
+<line class="line" x1="63550" y1="70.0" x2="63850" y2="70.0"/>
+<line class="line" x1="63950" y1="70.0" x2="64250" y2="70.0"/>
+<line class="line" x1="64350" y1="70.0" x2="64650" y2="70.0"/>
+<line class="line" x1="64750" y1="70.0" x2="65050" y2="70.0"/>
+<line class="line" x1="65150" y1="70.0" x2="65450" y2="70.0"/>
+<line class="line" x1="65550" y1="70.0" x2="65850" y2="70.0"/>
+<line class="line" x1="65950" y1="70.0" x2="66250" y2="70.0"/>
+<line class="line" x1="66350" y1="70.0" x2="66650" y2="70.0"/>
+<line class="line" x1="66750" y1="70.0" x2="67050" y2="70.0"/>
+<line class="line" x1="67150" y1="70.0" x2="67450" y2="70.0"/>
+<line class="line" x1="67550" y1="70.0" x2="67850" y2="70.0"/>
+<line class="line" x1="67950" y1="70.0" x2="68250" y2="70.0"/>
+<line class="line" x1="68350" y1="70.0" x2="68650" y2="70.0"/>
+<line class="line" x1="68750" y1="70.0" x2="69050" y2="70.0"/>
+<line class="line" x1="69150" y1="70.0" x2="69450" y2="70.0"/>
+<line class="line" x1="69550" y1="70.0" x2="69850" y2="70.0"/>
+<line class="line" x1="69950" y1="70.0" x2="70250" y2="70.0"/>
+<line class="line" x1="70350" y1="70.0" x2="70650" y2="70.0"/>
+<line class="line" x1="70750" y1="70.0" x2="71050" y2="70.0"/>
+<line class="line" x1="71150" y1="70.0" x2="71450" y2="70.0"/>
+<line class="line" x1="71550" y1="70.0" x2="71850" y2="70.0"/>
+<line class="line" x1="71950" y1="70.0" x2="72250" y2="70.0"/>
+<line class="line" x1="72350" y1="70.0" x2="72650" y2="70.0"/>
+<line class="line" x1="72750" y1="70.0" x2="73050" y2="70.0"/>
+<line class="line" x1="73150" y1="70.0" x2="73450" y2="70.0"/>
+<line class="line" x1="73550" y1="70.0" x2="73850" y2="70.0"/>
+<line class="line" x1="73950" y1="70.0" x2="74250" y2="70.0"/>
+<line class="line" x1="74350" y1="70.0" x2="74650" y2="70.0"/>
+<line class="line" x1="74750" y1="70.0" x2="75050" y2="70.0"/>
+<line class="line" x1="75150" y1="70.0" x2="75450" y2="70.0"/>
+<line class="line" x1="75550" y1="70.0" x2="75850" y2="70.0"/>
+<line class="line" x1="75950" y1="70.0" x2="76250" y2="70.0"/>
+<line class="line" x1="76350" y1="70.0" x2="76650" y2="70.0"/>
+<line class="line" x1="76750" y1="70.0" x2="77050" y2="70.0"/>
+<line class="line" x1="77150" y1="70.0" x2="77450" y2="70.0"/>
+<line class="line" x1="77550" y1="70.0" x2="77850" y2="70.0"/>
+<line class="line" x1="77950" y1="70.0" x2="78250" y2="70.0"/>
+<line class="line" x1="78350" y1="70.0" x2="78650" y2="70.0"/>
+<line class="line" x1="78750" y1="70.0" x2="79050" y2="70.0"/>
+<line class="line" x1="79150" y1="70.0" x2="79450" y2="70.0"/>
+<line class="line" x1="79550" y1="70.0" x2="79850" y2="70.0"/>
+<line class="line" x1="79950" y1="70.0" x2="80250" y2="70.0"/>
+<line class="line" x1="80350" y1="70.0" x2="80650" y2="70.0"/>
+<line class="line" x1="80750" y1="70.0" x2="81050" y2="70.0"/>
+<line class="line" x1="81150" y1="70.0" x2="81450" y2="70.0"/>
+<line class="line" x1="81550" y1="70.0" x2="81850" y2="70.0"/>
+<line class="line" x1="81950" y1="70.0" x2="82250" y2="70.0"/>
+<line class="line" x1="82350" y1="70.0" x2="82650" y2="70.0"/>
+<line class="line" x1="82750" y1="70.0" x2="83050" y2="70.0"/>
+<line class="line" x1="83150" y1="70.0" x2="83450" y2="70.0"/>
+<line class="line" x1="83550" y1="70.0" x2="83850" y2="70.0"/>
+<line class="line" x1="83950" y1="70.0" x2="84250" y2="70.0"/>
+<line class="line" x1="84350" y1="70.0" x2="84650" y2="70.0"/>
+<line class="line" x1="84750" y1="70.0" x2="85050" y2="70.0"/>
+<line class="line" x1="85150" y1="70.0" x2="85450" y2="70.0"/>
+<line class="line" x1="85550" y1="70.0" x2="85850" y2="70.0"/>
+<line class="line" x1="85950" y1="70.0" x2="86250" y2="70.0"/>
+<line class="line" x1="86350" y1="70.0" x2="86650" y2="70.0"/>
+<line class="line" x1="86750" y1="70.0" x2="87050" y2="70.0"/>
+<line class="line" x1="87150" y1="70.0" x2="87450" y2="70.0"/>
+<line class="line" x1="87550" y1="70.0" x2="87850" y2="70.0"/>
+<line class="line" x1="87950" y1="70.0" x2="88250" y2="70.0"/>
+<line class="line" x1="88350" y1="70.0" x2="88650" y2="70.0"/>
+<line class="line" x1="88750" y1="70.0" x2="89050" y2="70.0"/>
+<line class="line" x1="89150" y1="70.0" x2="89450" y2="70.0"/>
+<line class="line" x1="89550" y1="70.0" x2="89850" y2="70.0"/>
+<line class="line" x1="89950" y1="70.0" x2="90250" y2="70.0"/>
+<line class="line" x1="90350" y1="70.0" x2="90650" y2="70.0"/>
+<line class="line" x1="90750" y1="70.0" x2="91050" y2="70.0"/>
+<line class="line" x1="91150" y1="70.0" x2="91450" y2="70.0"/>
+<line class="line" x1="300.0" y1="100" x2="300.0" y2="180"/>
+<line class="line" x1="700.0" y1="100" x2="700.0" y2="180"/>
+<line class="line" x1="700.0" y1="100" x2="700.0" y2="290"/>
+<line class="line" x1="1100.0" y1="100" x2="1100.0" y2="180"/>
+<line class="line" x1="1500.0" y1="100" x2="1500.0" y2="180"/>
+<line class="line" x1="425" y1="250.0" x2="575" y2="210.0"/>
+<line class="line" x1="825" y1="210.0" x2="1375" y2="250.0"/>
+<line class="line" x1="2300.0" y1="100" x2="2300.0" y2="180"/>
+<line class="line" x1="3500.0" y1="100" x2="3500.0" y2="180"/>
+<line class="line" x1="4300.0" y1="100" x2="4300.0" y2="180"/>
+<line class="line" x1="7500.0" y1="100" x2="7500.0" y2="180"/>
+<line class="line" x1="7900.0" y1="100" x2="7900.0" y2="180"/>
+<line class="line" x1="7625" y1="330.0" x2="7775" y2="400.0"/>
+<line class="line" x1="7900.0" y1="100" x2="7900.0" y2="280"/>
+<line class="line" x1="9500.0" y1="100" x2="9500.0" y2="180"/>
+<line class="line" x1="8300.0" y1="100" x2="8300.0" y2="180"/>
+<line class="line" x1="10300.0" y1="100" x2="10300.0" y2="180"/>
+<line class="line" x1="10700.0" y1="100" x2="10700.0" y2="180"/>
+<line class="line" x1="10425" y1="230.0" x2="11375" y2="250.0"/>
+<line class="line" x1="11500.0" y1="100" x2="11500.0" y2="180"/>
+<line class="line" x1="11500.0" y1="100" x2="11500.0" y2="380"/>
+<line class="line" x1="12300.0" y1="100" x2="12300.0" y2="180"/>
+<line class="line" x1="12700.0" y1="100" x2="12700.0" y2="180"/>
+<line class="line" x1="13500.0" y1="100" x2="13500.0" y2="180"/>
+<line class="line" x1="13900.0" y1="100" x2="13900.0" y2="180"/>
+<line class="line" x1="12825" y1="260.0" x2="13375" y2="260.0"/>
+<line class="line" x1="14300.0" y1="100" x2="14300.0" y2="180"/>
+<line class="line" x1="15100.0" y1="100" x2="15100.0" y2="180"/>
+<line class="line" x1="15100.0" y1="100" x2="15100.0" y2="480"/>
+<line class="line" x1="15500.0" y1="100" x2="15500.0" y2="180"/>
+<line class="line" x1="15500.0" y1="340" x2="15500.0" y2="420"/>
+<line class="line" x1="15500.0" y1="100" x2="15500.0" y2="570"/>
+<line class="line" x1="15500.0" y1="100" x2="15500.0" y2="780"/>
+<line class="line" x1="15500.0" y1="100" x2="15500.0" y2="1320"/>
+<line class="line" x1="15900.0" y1="100" x2="15900.0" y2="180"/>
+<line class="line" x1="15900.0" y1="100" x2="15900.0" y2="420"/>
+<line class="line" x1="16700.0" y1="100" x2="16700.0" y2="180"/>
+<line class="line" x1="16700.0" y1="100" x2="16700.0" y2="420"/>
+<line class="line" x1="15900.0" y1="540" x2="15900.0" y2="620"/>
+<line class="line" x1="17500.0" y1="100" x2="17500.0" y2="180"/>
+<line class="line" x1="17500.0" y1="300" x2="17500.0" y2="380"/>
+<line class="line" x1="18300.0" y1="100" x2="18300.0" y2="180"/>
+<line class="line" x1="19500.0" y1="100" x2="19500.0" y2="180"/>
+<line class="line" x1="19500.0" y1="260" x2="19500.0" y2="340"/>
+<line class="line" x1="18700.0" y1="100" x2="18700.0" y2="180"/>
+<line class="line" x1="19900.0" y1="100" x2="19900.0" y2="180"/>
+<line class="line" x1="20300.0" y1="100" x2="20300.0" y2="180"/>
+<line class="line" x1="20300.0" y1="100" x2="20300.0" y2="440"/>
+<line class="line" x1="20700.0" y1="100" x2="20700.0" y2="180"/>
+<line class="line" x1="21100.0" y1="100" x2="21100.0" y2="180"/>
 </svg>
 <div class="general-boxes color-5" id="bbf74b7a50ab9028" style="left:250px;top:40px;width:100px;height:60px">
 <section >
